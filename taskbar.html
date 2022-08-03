@@ -1,91 +1,188 @@
 <html>
     <head>
-        <title>
-            YouTube
-        </title>
+        <title>YouTube</title>
         <link rel="stylesheet" href="style.css">
-        <link   rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="https://kit.fontawesome.com/6ee374ce85.js" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <div class="Taskbar">
-           
-            <div class="Menu">
-                <span class="Material-icons">
-                    menu
-                </span>
-                <span class="youtube"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"></img></span>
+<body>
+    <nav class="flex">
+        <div class="nav-left flex">
+            <i class="fa-solid fa-bars ham"></i>
+           <img src = "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg">
+        </div>
+        <div class="nav-middle flex" >
+            <div class="searchbox flex">
+                <input type="search" placeholder="Search">
+               <span class="glass"><i class="fa-solid fa-magnifying-glass"></i></span>
             </div>
-            <div class="search">
-                <form>
-                    <input type="text" placeholder="Search">
-                    
-                </form>
-                <button><span class="Material-icons">
-                    search
-                    </span></button>
+           <span class="mic"><i class="fa-solid fa-microphone"></i></span>
+        </div>
+        <div class="nav-right flex">
+            <span class="video"><i class="fa-solid fa-video"></i></span>
+            <span class="grid"><i class="fa-solid fa-table-cells"></i></span>
+            <span class="bell"><i class="fa-solid fa-bell"></i></span>
+            <span class="profile"><i class="fa-solid fa-user"></i></span>
+        </div>
+    </nav>
+    <div class="sidebar">
+        <div class="general">
+            <a href = ""><i class="fa-solid fa-house"></i><p class="hm">Home</p></a>
+            <a href = ""><i class="fa-solid fa-compass"></i><p>Explore</p></a>
+            <a href = ""><i class="fa-solid fa-photo-film"></i><p>Shorts</p></a>
+            <a href = ""><i class="fa-solid fa-play"></i><p>Subscriptions</p></a>
+            <a href = ""><i class="fa-solid fa-book"></i><p>Library</p></a>
+            <span class="his"><a href = ""><i class="fa-solid fa-clock-rotate-left "></i><p>History</p></a></span>
+            <span class="yv"><a href = ""><i class="fa-solid fa-circle-play "></i><p>Your videos</p></a></span>
+            <span class="wl"><a href = ""><i class="fa-solid fa-clock "></i><p>Watch later</p></a></span>
+            <span class="lv"><a href = ""><i class="fa-solid fa-thumbs-up "></i><p>Liked videos</p></a></span>
+            <hr>
+            <div class="subscriptions">
+                <h5>SUBSCRIPTIONS</h5>
             </div>
-            <i><span class="mic">
-                mic
-                </span></i>
-           
-            <div class="icons">
-                <i><span class="Material-icons">
-                    video_call
-                    </span></i>
-                <i><span class="Material-icons">
-                    grid_on
-                    </span></i>
-                    <i><span class="Material-icons">
-                        notifications
-                    </span></i>
-                <i><span class="Material-icons">account_circle</span></i>
+            <div class="account">
+                <span class="his"><a href = ""><i class="fa-solid fa-clock-rotate-left "></i><p>History</p></a></span>
+                <span class="yv"><a href = ""><i class="fa-solid fa-circle-play "></i><p>Your videos</p></a></span>
+                <span class="wl"><a href = ""><i class="fa-solid fa-clock "></i><p>Watch later</p></a></span>
+                <span class="lv"><a href = ""><i class="fa-solid fa-thumbs-up "></i><p>Liked videos</p></a></span>
             </div>
         </div>
-        <div class="Navbar">
-            <div class="default">
-                <span class="home">home</span>
-                <span class="explore">explore</span>
-                <span class="shorts"><img src="Screenshot .png"> </span>
-                <span class="subscriptions">subscriptions</span>
-                <span class="library">video_library</span>
-                <span class="history">history</span>
-                <ul>
-                    <span class="h"><li><a href="">Home</a></li></span>
-                    <span class="e"><li><a href="">Explore</a></li></span>
-                    <span class="sh"><li><a href="">Shorts</a></li></span>
-                    <span class="su"><li><a href="">Subscriptions</a></li></span>
-                    <span class="l"><li><a href="">Library</a></li></span>
-                    <span class="hi"><li><a href="">history</a></li></span>
-                </ul>
-            </div>
-        </div>
-            <div class="vl"></div>
-
+    </div>
+    <div class="contents">
         <div class="videos">
-            <div class="thumbnail">
-                <div class="box1"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Flower-flyOnFlower2.jpg"> </img> </div>
-                <div class="box2"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Solanum_trilobatum_flowers.JPG"> </img></div>
-                <div class="box2"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/A_small_flower_refracted_in_rain_droplets.jpg"> </img></div>
-                <div class="box2"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Flower_in_the_ooty_2.jpg"> </img></div>
-                <div class="box2"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Mauve_and_yellow_flower.jpg"> </img></div>
-                <div class="box2"><img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Cactus_Flower%2C_Mothitang_2019-06-23.jpg"> </img></div>
-                <div class="box2"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Flowers_Photo_by_Giovanni_Ussi_%284%29.jpg"> </img></div>
-                <div class="box2"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Spring_flower_Photo_by_Giovanni_Ussi_04.jpg"> </img></div>
-                <div class="div"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Tulipa_flower.jpg"></img></div>
-                <div class="div"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/White_flowers_5.jpg"></img></div>
-                <div class="div"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Flower_2007-2.jpg"> </img></div>
-                <div class="div"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Wildflowers_-_Papaver_Rhoeas_-_Klatschmohn_-_flowers_in_spring_-_flowers_in_summer.jpg"> </img></div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
             </div>
-            
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/4/48/BTS_LG_G7_ThinQ_mobile_advertisement_%28cropped%29.jpg" class="thumbnail"></a>
+                <div class="flex">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/BTS_logo_%282017%29.png"></a>
+                    <div class="vid-info">
+                        <a href=""><p>BANGTHANG BOYS</p></a>
+                        <p>BTS</p>
+                        <p>200B Views &bull; 10 days ago</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-           
-
-    </body>
+    </div>
+  <script src = "script.js"></script>
+ </body>
 </html>
-    
